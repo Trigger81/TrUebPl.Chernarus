@@ -1,6 +1,7 @@
 author = "E12 Kerodan & E12 Trigger"; 
 onLoadName = "Truppenuebungsplatz";
 loadScreen = "images\arma.jpg";
+onLoadMission = "www.echo12.de";
 respawn = 3;
 respawndelay = 5;
 disabledAI = 1;
@@ -10,6 +11,7 @@ RespawnDialog = 1;
 
 class Header
 {
+	gameType = Coop;
 	minPlayers = 1;
 	maxPlayers = 52;
 };

@@ -2,7 +2,7 @@ _onScreenTime = 8;
  
 sleep 5; //Wait in seconds before the credits start after player is in-game
 //player say2d "welcome"; 
-_role1 = "Willkommen auf Echo 12 Truppenuebungsplatz"; //In yellow
+_role1 = "Willkommen auf dem Echo 12 Truppenuebungsplatz"; //In yellow
 _role1names = ["www.echo12.de"]; //In white
 _role2 = "";
 _role2names = [""];
