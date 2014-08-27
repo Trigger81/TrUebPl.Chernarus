@@ -2,10 +2,10 @@ leaFunction =  compile preprocessFileLineNumbers "lea\loadout-init.sqf"; call le
 
 _igiload = execVM "IgiLoad\IgiLoadInit.sqf";
 
-//Syssi Sicherheit
-if(isServer) then {
-	[]execVM "scripts\syssi.sqf";
-};
+
+
+[] execVM "Scripts\welcome.sqf";
+
 
 if (local player) then {
    player enableFatigue false;
