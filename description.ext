@@ -7,8 +7,6 @@ respawndelay = 5;
 disabledAI = 1;
 RespawnDialog = 1;
 
-
-
 class Header
 {
 	gameType = Coop;
